@@ -33,9 +33,13 @@ public class LibraryTest {
         assertEquals(3, library.stockCount());
     }
 
+    @Test
+    public void addBookToStock(){
+        library.addBook(book5);
+        assertEquals(4,library.stockCount());
+    }
 
-
-
+    
 
 
 }
