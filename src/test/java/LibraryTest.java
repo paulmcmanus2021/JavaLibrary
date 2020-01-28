@@ -39,7 +39,14 @@ public class LibraryTest {
         assertEquals(4,library.stockCount());
     }
 
-    
+    @Test
+    public void addBookToStockAtCapacity(){
+        library.addBook(book4);
+        library.addBook(book5);
+        assertEquals(4,library.stockCount());
+    }
+
+
 
 
 }

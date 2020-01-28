@@ -17,6 +17,8 @@ public class Library {
     }
 
     public void addBook(Book book) {
-        this.collection.add(book);
+        if (this.stockCount() < capacity) {
+            this.collection.add(book);
+        }
     }
 }
