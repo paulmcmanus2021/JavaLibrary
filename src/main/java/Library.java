@@ -21,4 +21,8 @@ public class Library {
             this.libraryCollection.add(book);
         }
     }
+
+    public void removeBook(Book book) {
+        this.libraryCollection.remove(book);
+    }
 }
