@@ -8,10 +8,12 @@ public class Library {
 
     private HashMap<String,Integer> booksByGenre = new HashMap<String,Integer>();
 
-    booksByGenre.put("Political Fiction", 1);
-    booksByGenre.put("Textbook", 1);
-    booksByGenre.put("Adventure Fiction", 1);
-    booksByGenre.put("True Crime", 2);
+    {
+        booksByGenre.put("Political Fiction", 1);
+        booksByGenre.put("Textbook", 1);
+        booksByGenre.put("Adventure Fiction", 1);
+        booksByGenre.put("True Crime", 2);
+    }
 
 
 
