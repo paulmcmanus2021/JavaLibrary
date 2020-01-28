@@ -35,5 +35,10 @@ public class BorrowerTest {
         assertEquals("Paul", borrower.getName());
     }
 
+    @Test
+    public void borrowerStartsWith0Books(){
+        assertEquals(0, borrower.getBorrowerCollectionSize());
+    }
+
 
 }

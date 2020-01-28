@@ -17,4 +17,10 @@ public class Borrower {
     public ArrayList<Book> getBorrowerCollection() {
         return borrowerCollection;
     }
+
+    public int getBorrowerCollectionSize() {
+        return this.borrowerCollection.size();
+    }
+
+
 }
