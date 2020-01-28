@@ -16,16 +16,16 @@ public class LibraryTest {
 
     @Before
     public void before(){
-        ArrayList<Book> collection = new ArrayList<>();
+        ArrayList<Book> libraryCollection = new ArrayList<>();
         book1 = new Book("Animal Farm", "George Orwell", "Political Fiction");
         book2 = new Book("Learn Python the Hard Way", "Zed Shaw", "Textbook");
         book3 = new Book("Helter Skelter", "Vincent Bugliosi", "True Crime");
         book4 = new Book("Moby Dick", "Herman Melville", "Adventure Fiction");
         book5 = new Book("In Cold Blood", "Truman Capote", "True Crime");
-        collection.add(book1);
-        collection.add(book2);
-        collection.add(book3);
-        library = new Library( collection, 4 );
+        libraryCollection.add(book1);
+        libraryCollection.add(book2);
+        libraryCollection.add(book3);
+        library = new Library( libraryCollection, 4 );
     }
 
     @Test

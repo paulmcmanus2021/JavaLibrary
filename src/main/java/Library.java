@@ -2,23 +2,23 @@ import java.util.ArrayList;
 
 public class Library {
 
-    private ArrayList<Book> collection;
-    private int capacity;
+    private ArrayList<Book> libraryCollection;
+    private int libraryCapacity;
 
 
-    public Library(ArrayList<Book> collection, int capacity) {
-        this.collection = collection;
-        this.capacity = capacity;
+    public Library(ArrayList<Book> libraryCollection, int libraryCapacity) {
+        this.libraryCollection = libraryCollection;
+        this.libraryCapacity = libraryCapacity;
     }
 
 
     public int stockCount() {
-        return this.collection.size();
+        return this.libraryCollection.size();
     }
 
     public void addBook(Book book) {
-        if (this.stockCount() < capacity) {
-            this.collection.add(book);
+        if (this.stockCount() < libraryCapacity) {
+            this.libraryCollection.add(book);
         }
     }
 }
