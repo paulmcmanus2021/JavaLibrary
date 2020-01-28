@@ -7,6 +7,7 @@ public class BookTest {
 
     private Book book;
 
+
     @Before
     public void before(){
         book = new Book("Animal Farm", "George Orwell", "Political Fiction");
